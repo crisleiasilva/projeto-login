@@ -32,7 +32,7 @@ Lilás: #5f2c82
         overflow: hidden;
         background-color: white;
         width: 250px;
-        height: 500px;
+        height: 515px;
         border-radius: 20px;
         box-shadow:0px 0px 10px rgba(0, 0, 0, 0.466) ;
         transition: width .3s, height .3s;
@@ -61,10 +61,16 @@ Lilás: #5f2c82
      }
 
      form > div.campo {
-        background-color: #5f2c82;
-        display: block
-        height:40px;
+        background-color: #946baf;
+        display: block;
+        height: 40px;
         width:100%;
+        border-radius: 5px;
+        margin: 5px 0px;
+     }
+
+     div.campo > label {
+        display:none;
      }
 
      form > input[type=submit] {
